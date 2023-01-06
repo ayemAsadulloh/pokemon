@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,*::before*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial" sans-serif;
+    background-color: wheat;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+li {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.4s;
+    background-color: aliceblue;
+}
+
+
+
+li:hover{
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 30px;
+}
+
+/* .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+} */
